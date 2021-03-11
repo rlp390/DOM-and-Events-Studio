@@ -39,6 +39,8 @@ function init () {
         spaceShuttleHeight.innerHTML = height;
         verticalLine = (shuttleBackground.clientHeight - 75);
         rocket.style.top = verticalLine + "px";
+        centerLine = 0;
+        rocket.style.left = centerLine;
     });
 
     missionAbort.addEventListener("click", function(event) {
@@ -49,6 +51,8 @@ function init () {
             spaceShuttleHeight.innerHTML = height;
             verticalLine = (shuttleBackground.clientHeight - 75);
             rocket.style.top = verticalLine + "px";
+            centerLine = 0;
+            rocket.style.left = centerLine;
         }
     });
 
